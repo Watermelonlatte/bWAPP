@@ -33,7 +33,7 @@ pipeline {
               withSonarQubeEnv("${SONARQUBE_ENV}") {
                   sh '''
                     /opt/sonar-scanner/bin/sonar-scanner \
-                        -Dsonar.projectKey=webgoat \
+                        -Dsonar.projectKey=bWAPP \
                         -Dsonar.sources=. \
                         -Dsonar.java.binaries=target/classes
                     '''
