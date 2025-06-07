@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-       // 커밋 
+       // 커밋 2
       stage('🧪 SonarQube Analysis') {
           steps {
               withSonarQubeEnv("${SONARQUBE_ENV}") {
